@@ -1,17 +1,19 @@
-my_name = 'Zeb A.Shaw' # persons name
-my_age = 35 # in 2009 42 now
-my_hight = 74 #inches
-my_weight = 180 # lbs
-my_eyes = 'Blue' # assigns color to eyes
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'Zeb A.Shaw' # persons name
+age = 35 # in 2009 42 now
+hight = 74 #inches
+weight = 180 # lbs
+eyes = 'Blue' # assigns eye color
+teeth = 'White' # assign color to teeth
+hair = 'Brown' # assign hair collor
 
-puts "Let's talk about #{ my_name}."
-puts "He's #{ my_hight} inches tall."
-puts "He's #{my_weight} pounds heavy."
-puts "Actually thats not too heavy."
-puts "He's got  #{my_eyes} eyes and #{my_hair} hair."
-puts "his teeth are usually #{my_teeth} depending on the coffee."
+puts "Let's talk about #{ name}."  # displays statement
+puts "He's #{ hight} inches tall."  # displays hight in inches 2.54 cm
+puts " That is #{hight * 2.54} centimeters." # converts inches to cm
+puts "He's #{weight} pounds heavy." # display weight in pounds 0.4536 kg
+puts "That is #{weight * 0.4536} kilograms" # converts lbs to Kgs
+puts "Actually thats not too heavy." # displays statement
+puts "He's got  #{eyes} eyes and #{hair} hair." # displays hair color
+puts "His teeth are usually #{teeth} depending on the coffee." # displays teeth color
 
 # this line is tricky, try to get it exactly right
-puts " if I add #{my_age}, #{my_hight}, and #{my_weight } I get #{my_age + my_hight + my_weight}."
+puts "If I add #{age}, #{hight}, and #{weight } I get #{age + hight + weight}." # displays age , hight, weight and sums them.
