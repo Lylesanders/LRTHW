@@ -6,7 +6,7 @@ fat_cat="""
 Ill do a list:
 	\t*Cat food
 	\t*Fishies
-	\t*catnip\n \t* Grass
+	\t*catnip\n\t* Grass
 	"""
 
 	puts tabby_cat
